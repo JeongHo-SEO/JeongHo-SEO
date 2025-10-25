@@ -3,7 +3,10 @@
 - I am an undergraduate student in [Daegu Gyeongbuk Institute of Science and Technology](https://www.dgist.ac.kr/), simply called as ***DGIST***.
 - My major is ***Computational Statistics***(self-designed track decided by council) and I studied ***AI***.
 - Specifically, I'm interested in ***Recommendation System*** and some AI topics.
-- My CV pages are [Here](). ## Not Uploaded yet 😄
+
+## Pages
+- CV: [Here](https://jeongho-seo.github.io/Curriculum-Vitae/). # Not Uploaded yet 🥹
+- Blog: [Here](https://jeongho-seo.github.io/Blog/). # Not Uploaded yet 🥹
 
 ## Contact
 - You can contact to email if you have something to discuss with me.
