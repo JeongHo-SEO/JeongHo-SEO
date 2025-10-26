@@ -7,6 +7,7 @@
 ## Pages
 - CV: [Here](https://jeongho-seo.github.io/Curriculum-Vitae/). # Not Uploaded yet 🥹
 - Blog: [Here](https://jeongho-seo.github.io/Blog/). # Not Uploaded yet 🥹
+- Books: [Here](https://jeongho-seo.github.io/Books/). # Not Uploaded yet 🥹
 
 ## Contact
 - You can contact to email if you have something to discuss with me.
