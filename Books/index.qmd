@@ -1,8 +1,0 @@
-This Website display my personally written books.
-
-### List and Short Description
-- [book1](book1/)
-    - Description 1
-
-- [book2](book2/)
-    - Description 2
