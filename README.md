@@ -12,4 +12,4 @@
 - 📧 Address: seojh1360@dgist.ac.kr
 
 ---
-**<p align="right">Last Edited: November 24, 2025</p>**
+**<p align="right">Lastly Edited: November 24, 2025</p>**
