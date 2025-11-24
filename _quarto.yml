@@ -1,0 +1,29 @@
+# Quarto Website Design
+
+project:
+  type: website
+
+render:
+  - "*.qmd"
+  - "Books/*"
+  - "Blog/*"
+  - "CV/*"
+  - "!Private/*"          # Private folder: NO Rendering, Do not include in the website
+
+website:
+  title: "JeongHo SEO"
+  navbar:
+    left:
+      - href: index.qmd   # Link to the file
+        text: Home        # Text to display
+      - href: Books/
+        text: Books
+      - href: Blog/
+        text: Blog
+      - href: CV/
+        text: CV
+
+format:
+  html:
+    theme: cosmo
+    toc: true
