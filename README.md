@@ -11,9 +11,3 @@
 ## Contact
 - You can contact to email if you have something to discuss with me.
 - 📧 Address: seojh1360@dgist.ac.kr
-
----
-**<p align="right">
-Lastly Edited: 
-![Last Commit](https://img.shields.io/github/last-commit/JeongHo-SEO/JeongHo-SEO)
-</p>**
