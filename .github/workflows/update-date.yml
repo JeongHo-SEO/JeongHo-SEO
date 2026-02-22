@@ -3,8 +3,8 @@ name: Update README Date
 on:
   push:
     branches: [ main ]
-  schedule:
-    - cron: "0 0 * * *"   # 매일 00:00 UTC 자동 실행
+    paths:
+      - "README.md"
 
 jobs:
   update-date:
@@ -15,7 +15,7 @@ jobs:
       - name: Update date
         run: |
           TODAY=$(date +"%B %d, %Y")
-          sed -i "s/Lastly Edited: .*/Lastly Edited: $TODAY<\/p>**/" README.md
+          sed -i "s|Lastly Edited: .*|Lastly Edited: $TODAY</p>**|" README.md
 
       - name: Commit and push
         run: |
