@@ -1,0 +1,25 @@
+name: Update README Date
+
+on:
+  push:
+    branches: [ main ]
+  schedule:
+    - cron: "0 0 * * *"   # 매일 00:00 UTC 자동 실행
+
+jobs:
+  update-date:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Update date
+        run: |
+          TODAY=$(date +"%B %d, %Y")
+          sed -i "s/Lastly Edited: .*/Lastly Edited: $TODAY<\/p>**/" README.md
+
+      - name: Commit and push
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git commit -am "Auto update README date" || exit 0
+          git push
