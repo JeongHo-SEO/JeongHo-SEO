@@ -11,3 +11,6 @@
 ## Contact
 - You can contact to email if you have something to discuss with me.
 - 📧 Address: seojh1360@dgist.ac.kr
+
+---
+**<p align="right">Lastly Edited: December 12, 1999</p>**
